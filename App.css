@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(92, 194, 167);
+ }
+.msg{
+     display: flex;
+     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+margin-top:  50vh;
+background-color: rgb(23, 22, 22);
+color: rgb(0, 109, 80);
+}
+
+.msg:hover{
+    
+background-color: rgb(0, 0, 0);
+color: rgb(158, 158, 158);
+transition: 0.7s;
+cursor: grab;
+}
